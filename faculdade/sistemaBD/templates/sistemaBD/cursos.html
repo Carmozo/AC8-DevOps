@@ -1,0 +1,187 @@
+<!doctype html>
+{% load static %}
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'sistemaBD/blog.css' %}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Cursos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cursos.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="index.html"><img src="img/teste-logo.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Homepage</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cursos.html">Cursos<span class="sr-only">(current)</span></a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Notícias</a>
+            </li>  
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Procure algo no site..." aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+   
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading"><strong>Cursos Disponíveis</h1></strong>
+          <p class="lead text-muted">Confira abaixo os nossos cursos disponíveis, veja e clique para ver mais detalhes sobre !</p>
+          <p>
+            <a href="https://www.impacta.edu.br/graduacao" class="btn btn-primary my-2">Clique para ver todos</a>
+            <a href="index.html" class="btn btn-secondary my-2">Voltar ao início</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="img/gerenciamento.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Gestão da Tecnologia</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.impacta.edu.br/graduacoes/gestao-da-tecnologia-da-informacao">Ver</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img href="#" class="card-img-top" src="img/bigdata.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Produção Multimídia</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.impacta.edu.br/graduacoes/producao-multimidia">Ver</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img href="#" class="card-img-top" src="img/game.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Jogos Digitais</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.impacta.edu.br/graduacoes/jogos-digitais">Ver</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img href="#" class="card-img-top" src="img/bd.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Banco de Dados</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.impacta.edu.br/graduacoes/banco-de-dados">Ver</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img href="#" class="card-img-top" src="img/ads.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Análise e Desenvolvimento de Sistemas</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.impacta.edu.br/graduacoes/analise-e-desenvolvimento-de-sistemas">Ver</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img href="#" class="card-img-top" src="img/network.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Redes de Computadores</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.impacta.edu.br/graduacoes/redes-de-computadores">Ver</button></a>                                          </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Voltar ao topo</a>
+        </p>
+        <p>Todos nossos cursos são feito por profissionais dedicados as áreas.</p>
+        
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>

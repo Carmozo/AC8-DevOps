@@ -1,0 +1,233 @@
+<!doctype html>
+{% load static %}
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'sistemaBD/blog.css' %}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Notícias</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    
+      <header>
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <a class="navbar-brand" href="index.html"><img src="img/teste-logo.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Homepage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cursos.html">Cursos</a>
+                </li>            
+                <li class="nav-item">
+                  <a class="nav-link active" href="noticias.html">Notícias<span class="sr-only">(current)</span></a>
+                </li>  
+              </ul>
+              <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Procure algo no site..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa</button>
+              </form>
+            </div>
+          </nav>
+        </header>
+<br/>
+
+
+    <div class="container">
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="text-muted" href="#">Subscribe</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="#">Large</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="text-muted" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            </a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 text-muted" href="https://www.impacta.edu.br/graduacoes/producao-multimidia">Cursos</a>
+          <a class="p-2 text-muted" href="#">Competições</a>
+          <a class="p-2 text-muted" href="https://www.impacta.edu.br/pos-e-mba">Pós e Mba</a>
+          <a class="p-2 text-muted" href="#">Cadastros</a>
+          <a class="p-2 text-muted" href="https://www.impacta.edu.br/blog/">Blogs</a>
+          <a class="p-2 text-muted" href="#">Vagas de Estágio</a>
+          <a class="p-2 text-muted" href="#">Política</a>
+        </nav>
+      </div>
+
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">O que são as maratonas de Hackathon?</h1>
+          <p class="lead my-3"> Às vezes, é preciso ir além e fazer outros cursos, conhecer profissionais da área, se atualizar e participar de eventos. Nesse contexto, vale destacar as maratonas hackathon — você já ouviu falar delas?</p>
+          <p class="lead mb-0"><a href="https://bit.ly/2WFgfo4" class="text-white font-weight-bold">Continuar lendo...</a></p>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">ENEM</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Fui mal no ENEM, e agora?</a>
+              </h3>
+              <div class="mb-1 text-muted">Mar 27</div>
+              <p class="card-text mb-auto">O ENEM é uma grande oportunidade para muitas pessoas ingressarem em uma faculdade...</p>
+              <a href="https://bit.ly/2JWkqu7">Continuar lendo...</a>
+            </div>
+            <!--<img class="card-img-right flex-auto d-none d-md-block" src="holder.js/200x250?theme=thumb">-->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-success">Vestibular</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Apps para vestibulares</a>
+              </h3>
+              <div class="mb-1 text-muted">Mar 25</div>
+              <p class="card-text mb-auto">Hoje em dia, no entanto, ficou muito mais fácil acessar conteúdos para estudar.</p>
+              <a href="https://bit.ly/2TNXH39">Continuar lendo...</a>
+            </div>
+            <!--<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8 blog-main">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+            As últimas notícias!
+          </h3>
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">DBA Brasil</h2>
+            <p class="blog-post-meta">21 de Fevereiro/2019 por <a href="#">DB4</a></p>
+
+            <p><strong>
+                Para participar do DBA BRASIL 4.0, é obrigatório inscrever-se utilizando o formulário abaixo. Sem a inscrição, não será permitido o ingresso no dia do evento.</p></strong>
+            <hr>
+            <p>Já na primeira edição do evento, pudemos verificar o seu potencial quantitativo e 
+              qualitativo, pois tivemos 239 participantes de um total de 590 inscrições, em um 
+              espaço que comportava 250 pessoas. Estatísticas nos mostraram que em eventos 
+              gratuitos similares a quantidade média de participantes inscritos que comparecem 
+              ao evento é de 30% a 50%, e conseguimos a expressiva marca de 40,5%. Acreditamos 
+              que, se permitíssemos mais inscrições, teríamos mais participantes; como o espaço 
+              não comportava um número maior de participantes, preferimos trabalhar com a 
+              limitação. De acordo com os dados informados nas inscrições, pudemos verificar
+               que a maior parte dos inscritos são profissionais qualificados, 
+               diretamente relacionados com o uso de tecnologia de banco de dados.</p>
+            <blockquote>
+              <p>Na época o grupo tinha aproximadamente 800 membros, significando que 73,75% dos membros inscreveram-se para participar do evento.</p>
+            </blockquote>
+            <p>Durante o evento, foram proferidas 18 palestras de 1 hora e 12 palestras relâmpagos de 5 minutos, essas últimas, realizadas com muita descontração e que proporcionaram uma rica troca de experiência entre os profissionais presentes.</p>
+            <h2>Para trazer</h2>
+            <p>Os participantes também terão que entregar na entrada 1Kg de alimento não perecível (exceto óleo, sal e açúcar), que serão doados  à uma entidade beneficente que será indicada em breve.
+
+                Ainda não sabe quais as palestras e hands-on que farão parte do evento? Confira a lista das palestras selecionadas, que encontra-se <a href="https://dbabrasil.net.br/db4/lista-palestras-handson/">neste link.</p></a>
+            <h3>Aviso</h3>
+            <p>Após selecionar o tipo de ingresso, uma nova janela será aberta (desabilite o bloqueador de pop-up para o nosso site) e você será redirecionado para o site da Eventbrite, onde sua inscrição será concluída. Não deixe de preencher os campos, pois isso nos ajudará a fazer um evento cada vez melhor.
+              </p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">O que devo fazer ao sair do ensino médio?</h2>
+            <p class="blog-post-meta">29 de Março/2019 por <a href="#">Rogério</a></p>
+
+            <p>Durante os últimos anos do ensino médio, os jovens começam a pensar mais seriamente no que farão após o término do colégio. Um dos caminhos naturalmente seguidos é, sem dúvidas, entrar na faculdade e apostar em uma carreira. E, como esse é um momento muito importante, é essencial contar com um guia de profissões para se inspirar, pensar e decidir.</p>
+            <blockquote>
+              <p>É bom lembrar que há muitas possibilidades de atuação, além de profissões para todos os gostos e <u>habilidades</u>: existem opções na área de Comunicação, Exatas, Química, Engenharia, Tecnologia da Informação e muito mais!
+                </p>
+            </blockquote>
+            Para começar a trilhar um futuro de sucesso, contar com o <u>diploma de faculdade</u> é fundamental! Então, pensando em ajudar você a decidir qual carreira seguir depois do ensino médio, elaboramos um guia de profissões com as informações mais importantes sobre o assunto! <a href="https://bit.ly/2VcFptE">Continue a leitura e confira!</a></p>
+          </div><!-- /.blog-post -->
+
+          
+          <nav class="blog-pagination">
+            <a class="btn btn-outline-primary" href="#">Antigos</a>
+            <a class="btn btn-outline-secondary disabled" href="#">Recentes</a>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <aside class="col-md-4 blog-sidebar">
+          <div class="p-3 mb-3 bg-light rounded">
+            <h4 class="font-italic">Sobre</h4>
+            <p class="mb-0">Assine nossa Newsletter para receber os melhores conteúdos e dicas!</p>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Arquivados</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">Março 2019</a></li>
+              <li><a href="#">Fevereiro 2019</a></li>
+              <li><a href="#">Janeiro 2019</a></li>
+              <li><a href="#">Dezembro 2018</a></li>                  
+            </ol>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Externos</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/Edu-Santana/AC3Pages">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </aside><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+        <p>&copy; 2018-2019 Impacta Treinamentos. &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+      <p>
+        <a href="#">Volta ao topo</a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>

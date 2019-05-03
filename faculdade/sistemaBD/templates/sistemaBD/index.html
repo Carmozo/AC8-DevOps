@@ -1,0 +1,151 @@
+<!doctype html>
+{% load static %}
+
+<html lang="en">
+   <head>
+    <link rel="stylesheet" href="{% static 'sistemaBD/estilo.css' %}">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/estilo.css" rel="stylesheet">
+  </head>
+  <body>
+  
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="{% static 'img/teste-logo.png' %}/"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Homepage<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cursos.html">Cursos</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Notícias</a>
+            </li>  
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Procure algo no site..." aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="img/slider1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Cursos de Alta Qualidade!</h1>
+                <p>Todos os nossos cursos são devidamente vistos e revistos, sempre com os materiais mais atualizados de cada conteúdo, passando um entendimento fácil e metódico.</p>
+                <p><a class="btn btn-lg btn-primary" href="cursos.html" role="button">Confira os cursos...</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="img/slider2.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>A melhor seção de notícias</h1>
+                <p>Nossa aba de notícias sempre vai estar atualizada com as últimas reportagens, eventos ou provas da faculdade, certifique-se de checá-la pelo menos uma vez ao dia!</p>
+                <p><a class="btn btn-lg btn-primary" href="noticias.html" role="button">Feed de notícias...</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="img/slider3.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Cadastre-se agora!</h1>
+                <p>Cadastre-se agora para receber primeiro as notícias sobre eventos, palestras, cursos e concursos da escola e assim desenvolver e se aprofundar no cotidiano, com o dia em cheque!</p>
+                <p><a class="btn btn-lg btn-primary" href="cadastro.html" role="button">Inscreva-se aqui!</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/Hackathon.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Hackathon</h2>
+            <p>Uma maratona de programação na qual hackers se reúnem por horas, dias ou até semanas, a fim de explorar dados abertos, desvendar códigos e sistemas lógicos, discutir novas ideias e desenvolver projetos de software ou mesmo de hardware.</p>
+            <p><a class="btn btn-secondary" href="https://bit.ly/2WFgfo4" role="button">Ver detalhes &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/pdca.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>PDCA</h2>
+            <p>PLAN - DO - ACT - CHECK. é um método iterativo de gestão de quatro passos, utilizado para o controle e melhoria contínua de processos e produtos. É também conhecido como o círculo/ciclo/roda de Deming, ciclo de Shewhart, círculo/ciclo de controle.</p>
+            <p><a class="btn btn-secondary" href="https://bit.ly/2WDEW46" role="button">Ver detalhes &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/mec.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>O MEC</h2>
+            <p>Ministério da Educação. Órgão que permite que um curso superior tenha validade oficial no Brasil. Caso você faça uma graduação sem essa permissão, todo o esforço e dedicação direcionados para esse feito podem ser em vão perante o mercado de trabalho.</p>
+            <p><a class="btn btn-secondary" href="https://bit.ly/2WFuDww" role="button">Ver detalhes &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Voltar ao topo</a></p>
+        <p>&copy; 2018-2019 Impacta Treinamentos. &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  </script>
+  </body>
+</html>
